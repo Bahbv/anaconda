@@ -3,9 +3,9 @@ Python example making use of best practice file structure and multithreading.
 
 ***made for python3+ en Kipsiam***
 
----
+
 ## File structure
----
+
 ```
 project/
 |
@@ -33,15 +33,15 @@ project/
 |-- Makefile (A makefile could be used to automate tests and setup)
 |-- .gitignore (files being ignored by git)
 ```
----
+
 ## Running
----
+
 * Open the root as workspace folder and run `python3 -m anaconda` or `py -m anaconda` (depends on your path).
 * Setup and run with `make setup` to install dependencies and `make run` to run the script
 * Can't run this with the debug button i think. Learn some commands like `ctrl + ~`
----
+
 ## More
----
+
 ### Notes
 * Makefile uses Make. You can install that with `choco install make` while having [Chocolatery](https://chocolatey.org/install) installed.  Or skip it all together..
 * Opened up threads cant be closed with ctrl+c. If it chrases use your task manager. Should use a global variable for stopping it (like we are doing in this example) or change to classes with a [function that raises an exeption](https://www.geeksforgeeks.org/python-different-ways-to-kill-a-thread/)
