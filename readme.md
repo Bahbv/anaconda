@@ -54,5 +54,5 @@ project/
 * [python3 import system](https://docs.python.org/3/reference/import.html#)
 * [Best python guide ever](https://letmegooglethat.com/?q=How+to+do+X+in+python)
 
-### Credits
+### Author
 BahbV <bob@bahbv.net>
