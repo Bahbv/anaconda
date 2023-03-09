@@ -1,7 +1,7 @@
 # MY ANACONDA DON'T
 Python example making use of best practice file structure and multithreading.  
 
-***made for python3+ en Kipsiam***
+***made for python3+***
 
 
 ## File structure
